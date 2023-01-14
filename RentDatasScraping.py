@@ -2,7 +2,7 @@ import requests
 import sqlite3
 from bs4 import BeautifulSoup
 
-url = 'https://suumo.jp/chintai/bc_100304226531/'
+url = ''
 
 response = requests.get(url)
 response.encoding = response.apparent_encoding
